@@ -21,6 +21,12 @@ TLS all the things (including internal server-to-server communication). It's jus
 **Data Security**  
 Encryption, least privilege, deletion, auditing use of privileges. When possible (which should be all of the time), leverage systems to encrypt data while at rest. Store PII (Personally Identifiable Information) in separate systems. Be aware of any compliance and regulatory processes that are specific to your industry and be prepared to explain how you follow them.
 
+**Data Localization**
+Some governments have more legal powers than others to demand access to data stored inside their borders. Enterprises are increasingly sensitive to this and the potential risks it brings around areas such as personal privacy and protecting intellectual property rights. Therefore they want their data stored in geography that's repsectful of their data secuirty needs.
+
+**Data Loss Prevention**
+Where the data stored in the app could contain sensitive information such as PPI or IP, the enterprise will want to make sure this is secure to prevent users from exporting or sharing this data outside of the organization without some form of access controls and auditing. It may also be appropriate that the app warns or prevents the user from adding data identified as potentially containing such information at all or with approval.    
+
 **Network Segmentation**  
 Create private networks by leveraging cloud hosting features such as VPCs and VPN connections when possible. Don't treat your office location as an extension of this network. Anyone who needs to access the production network should have a VPN connection from their own device.
 
